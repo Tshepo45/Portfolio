@@ -158,7 +158,7 @@ function createDiv(buttonId) {
   div.appendChild(sourceBtn);
   div.appendChild(projectExitBtn);
   projectsSection.appendChild(div);
-
+  
   projectExitBtn.addEventListener('click', () => {
     div.remove();
     document.body.classList.toggle('no-scroll');
