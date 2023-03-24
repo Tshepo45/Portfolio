@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Desktop Mobile</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto"/>
+    
+</head>
+  <body>
+    <!--Header with navbar-->
+    <header>
+      <nav>
+        <div class="myLogo">Tshepo45</div>
+      <ul>
+        <ul>
+          <li>
+            <a href="#"
+              ><img src="icons/menu.png" alt="hamburger menu" id="menu"
+            /></a>
+          </li>
+          <li>
+            <a href="#" class="exit hidden"
+              ><img src="icons/Icon.png" alt="x-icon"
+            /></a>
+          </li>
+          <li class="hidden-items"><a href="#projects">Portfolio</a></li>
+          <li class="hidden-items"><a href="#about-me">About</a></li>
+          <li class="hidden-items"><a href="#form-section">Contact</a></li>
+          <li class="hidden-items">
+            <a href="#"
+              ><img src="icons/Union.png" alt="envelope icon" id="envelope"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+    
+    <section id="container1">
+      <div id="P-Text">
+        <h1 class="title">Hey There. <span>I'm Tshepo</span></h1>
+        <h2>I am a software developer</h2>
+        <p class="content-p">
+          I can help you build a product, feature or website. Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don't hesitate to contact me.
+        </p>
+      </div>
+      <div id="social-media">
+        <ul>
+          <li><img src="icons/github.png" class="icon right alt="github icon" id="github"/></li>
+          <li><img src="icons/Disabled2.png" class="icon right alt="linkedin icon" /></li>
+          <li><img src="icons/hand.png" class="icon right alt="hand icon" id="hand"/></li>
+          <li><img src="icons/twitter.png" class="icon right alt="twitter icon"id="twitter"/></li>
+          <li><img src="icons/m.png" class="icon right alt="medium icon" id="medium" /></li>
+        </ul>
+      </div>
+    
+    </section>
+    <!--Projects section-->
+    <section id="projects">
+      <div id="h2-container">
+        <h2 id="pager-head1">My Recent <span>Works</span></h2>
+        <div id="h2-div"></div>
+       </div>
+        <div id="projects-grid">
+          <div id="project-container">
+           <div id="proj-image"><img src="images/ImgPlaceholder.png" alt="" id="proj-1"/>
+           </div>
+          <div id="project-contents">
+            <h3 id="h3-title">Multi-Post Stories</h3>
+            <p id="p-paragraph">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required. has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a standard
+              dummy text. A daily selection of privately personalized reads; no
+              accounts or sign-ups required.
+            </p>
+            <div class="lang">
+              <div class="lang-1">css</div>
+              <div class="lang-1">html</div>
+              <div class="lang-1">bootstrap</div>
+              <div class="lang-1">Ruby</div>
+            </div>
+          <button type="submit" id="btn-1" class="btn project-btn" >See Project</button>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!--About section-->
+    <section id="about-me">
+      <div id="about-content">
+        <h2 class="abt-title">About me</h2>
+        <p id="about-me-p">
+          Hello, I'm a software developer! I can help you build a product,
+          feature or website. Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don't
+          hesitate to contact me.
+        </p>
+        <button type="button" id="resume">Get My Resume</button>
+      </div>
+      <div id="skills">
+        <div>
+          <div class="skills-title">
+            <img  src="icons/Rectangle55.png" alt="square" />
+            <h3>Languages</h3>
+          </div>
+          <ul id="languages-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Ruby</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div>
+          <div class="skills-title">
+            <img src="icons/Rectangle56.png" alt="square" />
+            <h3>Frameworks</h3>
+          </div>
+          <ul id="frameworks-list">
+            <li>Bootstrap</li>
+            <li>Ruby on Rails</li>
+            <li>RSPec</li>
+            <li>CapyBara</li>
+            <li>Selenium</li>
+          </ul>
+        </div>
+        <div>
+          <div class="skills-title">
+            <img  src="icons/Rectangle57.png" alt="round" />
+            <h3>Skills</h3>
+          </div>
+          <ul id="skills-list">
+            <li>Git</li>
+            <li>Github</li>
+            <li>Terminal</li>
+            <li>Codepen</li>
+            <li>Gitlab</li>
+            <li>Codekit</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!--Form section-->
+    <section id="form-container">
+      <h2>
+        I'm always interested in hearing about new projects, so if you'd like to
+        chat please get in touch.
+      </h2>
+      <form action="https://formspree.io/f/mzbowdel" method="POST" id="contact-form">
+        <fieldset> <input class="inputs" type="text" name="full-name" id="fullname" maxlength="30" placeholder="Enter your name" required/>
+          <input class="inputs" type="email" name="email" id="email" placeholder="Email" required/>
+          <textarea name="comments" id="comments" maxlength="500" placeholder="Enter text here"> </textarea>
+        </fieldset>
+        <input type="submit" id="submit" name="submit" value="Get in touch" />
+      </form>
+    </section>
+    
+    <!--Footer-->
+    <footer class="social2">
+      <img  src="icons/vector4.png" alt="github icon" />
+      <img  src="icons/Disabled.png" alt="linkedin icon" />
+      <img  src="icons/vector1.png" alt="twitter" />
+      <img  src="icons/vector2.png" alt="hand" />
+      <img src="icons/vector3.png" alt="medium" />
+    </footer>
+    <script src="script.js" defer></script>
+  </body>
+</html>
