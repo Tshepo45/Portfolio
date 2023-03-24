@@ -43,7 +43,7 @@ https://tshepo45.github.io/
 ## 💻 Getting Started 
 
 Setup project to your local environment and clone it as follows git clone
-https://github.com/Tshepo45/Portfolio-desktop-version.git
+https://github.com/Tshepo45/Portfolio.git
 
 To get a local copy up and running, follow these steps.
 
@@ -56,8 +56,7 @@ run git installations commands.
 
 Clone this repository to your desired folder:
 
-git clone https://github.com/Tshepo45/Portfolio-desktop-version.git
-
+git clone https://github.com/Tshepo45/Portfolio.git
 ## 👥 Authors <a name="tshepo45"></a>
 
 👤 **Author1**
