@@ -16,7 +16,7 @@ function closeMobileMenu() {
   navItem.classList.remove('hidden');
   menuList.classList.remove('ul-list');
   mainMenu.classList.remove('hidden');
-  closeX .classList.remove('X');
+  closeX.classList.remove('X');
   mailIcon.classList.remove('hidden');
 }
 
@@ -26,7 +26,7 @@ mainMenu.addEventListener('click', () => {
   navItem.classList.add('hidden');
   menuList.classList.add('ul-list');
   mainMenu.classList.add('hidden');
-  closeX .classList.add('X');
+  closeX.classList.add('X');
   mailIcon.classList.add('hidden');
   menuItems.forEach((item) => item.addEventListener('click', closeMobileMenu));
 });
@@ -139,8 +139,8 @@ function createDiv(buttonId) {
   projectExitBtn.style.backgroundSize = 'cover';
   projectExitBtn.classList.add('popup-exit');
   div.classList.toggle('popup');
-
- if (window.innerWidth < 900) {
+  
+  if (window.innerWidth < 900) {
     div.classList.toggle('mobile-width');
     projectsTitle.classList.toggle('mobile-title');
     projectsLanguages.classList.toggle('mobile-languages');
