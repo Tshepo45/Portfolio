@@ -8,7 +8,6 @@ const mailIcon = document.querySelector('#envelope');
 const projectsSection = document.querySelector('#projects');
 const HideProjects = document.querySelectorAll('#projects > div');
 
-
 /* Menu */
 
 function closeMobileMenu() {
@@ -33,7 +32,6 @@ mainMenu.addEventListener('click', () => {
 });
 
 closeX.addEventListener('click', closeMobileMenu);
-
 
 /* Project section */
 
